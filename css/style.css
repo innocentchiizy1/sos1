@@ -1,0 +1,154 @@
+html,
+body {
+    font-family: 'Trajan Pro', sans-serif;
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  .max-width {
+    max-width: i300px;
+    padding: 0 80px;
+    margin: auto;
+  }
+  html{
+      scroll-behavior: smooth;
+      background-color: #333;
+  }
+
+ 
+/*----------------------Home Section------------------*/
+.home {
+    display: flex;
+      background-image: url(../img/images/SOS\ \(00\).jpeg);
+    height: 100vh;
+    color: black;
+   background-size:cover;
+  }
+  .home .max-width {
+    margin: auto 0 auto 0;
+  }
+
+/*==============CONTACT===================== */
+footer {
+    background-color: #41464b;
+    padding-top: 30px;
+    border-top: 5px solid rgba(0, 0, 0, 0.1)
+}
+
+#contact-lefT h3,
+#contact-right h3 {
+    color: #fff;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+#contact-left p {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+#contact-info {
+    background-image: url(../img/world-map.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+address {
+    color: #fff;
+}
+
+address strong {
+    font-size: 16px;
+}
+
+address strong,
+#phone-fax-email strong {
+    letter-spacing: 1px;
+}
+
+form .form-control {
+    background: transparent;
+    border-radius: 0;
+    border-color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/*==============COPYRIGHT===================== */
+#footer-bottom {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 30px 0;
+    margin-top: 60px;
+}
+
+#footer-copyrights p {
+    margin: 0;
+    color: #fff;
+}
+
+#footer-menu {
+    float: left;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#footer-menu ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+#footer-menu ul li {
+    display: inline-block;
+}
+
+#footer-menu ul li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+#footer-menu a:hover {
+    color: yellowgreen;
+}
+
+/*==============SOCIAL-ICONS===================== */
+.social-links {
+    padding-left: 0px;
+}
+
+.social-links li {
+    list-style-type: none;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.social-icon i {
+    font-size: 30px;
+}
+
+.icon-gray i {
+    color: #64707b;
+}
+
+.social-icon i:hover {
+    color: yellowgreen;
+}
+
+.icon-white i {
+    color: yellowgreen;
+}
